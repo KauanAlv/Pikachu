@@ -11,7 +11,6 @@ body{
     font-family: Righteous, sans-serif;
 }
 header{
-    background-color: lightcoral;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -21,9 +20,8 @@ header span{
     color: var(--secundary-color);
 }
 main{
-    background-color: lightblue;
     flex-grow: 1;
-        display: flex;
+    display: flex;
     flex-direction: column;
 }
 .sombra{
@@ -68,12 +66,16 @@ h1{
     justify-content: center;
     align-items: center;
 }
+.descricao{
+    z-index: 1;
+}
 .pikachu{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -);
+    transform: translate(-50%, -50%);
 }
 footer{
-    background-color: lightcyan;
+    text-align: center;
+    color: var(--secundary-color);
 }
